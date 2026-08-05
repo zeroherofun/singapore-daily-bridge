@@ -1,4 +1,4 @@
-# Singapore Daily — News Aggregator
+﻿# City News Bulletin — News Aggregator
 
 Static news bridge site for GitHub Pages.
 
