@@ -1,10 +1,10 @@
 /* Standard footer — all bridge pages */
-.baa3 .footer {
+.sd-footer-wrap .footer {
   padding: 20px 0;
   background: #141414;
 }
 
-.baa3 .footer .disclaimer-footer {
+.sd-footer-wrap .footer .disclaimer-footer {
   max-width: 720px;
   margin: 0 auto;
   text-align: center;
@@ -12,29 +12,29 @@
   padding: 0 16px;
 }
 
-.baa3 .footer .sys-menu {
+.sd-footer-wrap .footer .sys-menu {
   list-style: none;
   padding: 0;
   margin: 0 0 12px;
   text-align: center;
 }
 
-.baa3 .footer .sys-menu li {
+.sd-footer-wrap .footer .sys-menu li {
   display: inline-block;
   margin: 0 8px;
 }
 
-.baa3 .footer .sys-menu a {
+.sd-footer-wrap .footer .sys-menu a {
   color: #bbb;
   font-size: 13px;
   text-decoration: underline;
 }
 
-.baa3 .footer .sys-menu a:hover {
+.sd-footer-wrap .footer .sys-menu a:hover {
   color: #fff;
 }
 
-.baa3 .footer .copy {
+.sd-footer-wrap .footer .copy {
   text-align: center;
   font-size: 11px;
   color: grey;

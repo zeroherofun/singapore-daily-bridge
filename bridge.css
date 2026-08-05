@@ -488,6 +488,33 @@ body.sd-bridge {
   align-items: center;
 }
 
+.sd-legal h1 {
+  font-size: 26px;
+  margin: 0 0 16px;
+}
+
+.sd-legal h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 0 8px;
+  color: #222;
+}
+
+.sd-legal p,
+.sd-legal li {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #444;
+}
+
+.sd-legal ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.sd-legal a { color: var(--sd-red); }
+
 @media (max-width: 480px) {
   .sd-logo { font-size: 22px; }
   .sd-card h2 { font-size: 19px; }

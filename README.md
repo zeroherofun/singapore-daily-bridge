@@ -1,23 +1,14 @@
-# Singapore Daily — bridge (news aggregator)
+# Singapore Daily — News Aggregator
+
+Static news bridge site for GitHub Pages.
 
 ## Pages
 
-| File | Description |
-|------|-------------|
-| `index.html` | Home — featured Chin Swee Road story + Latest headlines |
-| `preland.html` | Full preland with `{offer}` |
-| `singapore.html` … `world.html` | Section lists (plain headlines) |
-| `article-*.html` | Safety / neutral news articles |
+- `index.html` — homepage with featured story
+- `singapore.html`, `business.html`, `tech.html`, `life.html`, `world.html` — section lists
+- `article-*.html` — news articles
+- `cookie.html`, `terms.html`, `privacy.html`, `impressum.html` — legal pages
 
-## Footer
+## Deploy
 
-Only legal links (Cookie, Terms, Privacy, Impressum) + copyright — like white pages for Google.
-
-## Push updates to GitHub
-
-```powershell
-$env:GITHUB_TOKEN = "your_token_here"
-powershell -ExecutionPolicy Bypass -File push-to-github.ps1
-```
-
-Live: https://zeroherofun.github.io/singapore-daily-bridge/
+Push to `main` branch. GitHub Pages serves from repository root.
