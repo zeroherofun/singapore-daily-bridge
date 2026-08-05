@@ -488,8 +488,11 @@ body.sd-bridge {
   align-items: center;
 }
 
+@media (max-width: 480px) {
   .sd-logo { font-size: 22px; }
   .sd-card h2 { font-size: 19px; }
+  .sd-card-featured h2 { font-size: 21px; }
   .sd-article-header h1 { font-size: 22px; }
+  .sd-article-full .sd-article-header h1 { font-size: 22px; }
   .sd-archive-thumb { width: 80px; height: 60px; }
 }
