@@ -1,0 +1,42 @@
+/* Standard footer — all bridge pages */
+.baa3 .footer {
+  padding: 20px 0;
+  background: #141414;
+}
+
+.baa3 .footer .disclaimer-footer {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  color: #bbb;
+  padding: 0 16px;
+}
+
+.baa3 .footer .sys-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.baa3 .footer .sys-menu li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.baa3 .footer .sys-menu a {
+  color: #bbb;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.baa3 .footer .sys-menu a:hover {
+  color: #fff;
+}
+
+.baa3 .footer .copy {
+  text-align: center;
+  font-size: 11px;
+  color: grey;
+  padding: 10px 0;
+}
